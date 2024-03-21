@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.repo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 8px;
+  background-color: #f8f8ff;
+  padding: 24px;
+  border-radius: 24px;
+}
+.avatar-image {
+  height: 90px;
+  width: 90px;
+  margin-bottom: 10px;
+}
+.repo-name {
+  color: #e73959;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.stats-container {
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  gap: 20px;
+}
+.stat-icons {
+  height: 15px;
+  width: 15px;
+}
+.stat-text {
+  font-size: 15px;
+  color: black;
+  font-family: roboto;
+}
